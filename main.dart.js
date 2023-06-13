@@ -47569,7 +47569,7 @@ o=p.a
 n=A.BB(null,B.bU,A.t(l,k),"POST",null,null)
 m=o.nJ$
 m===$&&A.b()
-k=n.pG(m,"auth/login",j,A.t(l,k))
+k=n.pG(m,"/api/auth/login",j,A.t(l,k))
 s=3
 return A.R(o.ml(0,p.pe(k.pK(p.b),t.m8),t.P),$async$Ao)
 case 3:l=c.a
@@ -47590,7 +47590,7 @@ o=p.a
 n=A.BB(null,B.bU,A.t(l,k),"POST",null,null)
 m=o.nJ$
 m===$&&A.b()
-k=n.pG(m,"auth/register",j,A.t(l,k))
+k=n.pG(m,"/api/auth/register",j,A.t(l,k))
 s=3
 return A.R(o.ml(0,p.pe(k.pK(p.b),t.m8),t.P),$async$B8)
 case 3:l=d.a
@@ -47608,7 +47608,7 @@ m=p.a
 l=A.BB(null,B.bU,A.t(o,n),"GET",null,null)
 k=m.nJ$
 k===$&&A.b()
-n=l.pG(k,"user",null,A.t(o,n))
+n=l.pG(k,"/api/user",null,A.t(o,n))
 s=3
 return A.R(m.ml(0,p.pe(n.pK(p.b),t.et),t.P),$async$kF)
 case 3:o=b.a
@@ -47629,7 +47629,7 @@ o=p.a
 n=A.BB(null,B.bU,A.t(l,k),"POST",null,null)
 m=o.nJ$
 m===$&&A.b()
-k=n.pG(m,"withdraw/create",j,A.t(l,k))
+k=n.pG(m,"/api/withdraw/create",j,A.t(l,k))
 s=3
 return A.R(o.ml(0,p.pe(k.pK(p.b),t.Cu),t.P),$async$BD)
 case 3:l=c.a
@@ -47650,7 +47650,7 @@ o=p.a
 n=A.BB(null,B.bU,A.t(l,k),"POST",null,null)
 m=o.nJ$
 m===$&&A.b()
-k=n.pG(m,"broadcasting/auth",j,A.t(l,k))
+k=n.pG(m,"/api/broadcasting/auth",j,A.t(l,k))
 s=3
 return A.R(o.ml(0,p.pe(k.pK(p.b),l),l),$async$Ap)
 case 3:l=c.a
@@ -47671,7 +47671,7 @@ o=p.a
 n=A.BB(null,B.bU,A.t(l,k),"POST",null,null)
 m=o.nJ$
 m===$&&A.b()
-k=n.pG(m,"game/bet",j,A.t(l,k))
+k=n.pG(m,"/api/game/bet",j,A.t(l,k))
 s=3
 return A.R(o.ml(0,p.pe(k.pK(p.b),t.et),t.P),$async$B1)
 case 3:l=c.a
@@ -47848,12 +47848,12 @@ $S:339}
 A.a1h.prototype={
 $0(){var s=this.a.$1$0(t.lJ),r=s.VP()
 s.VQ()
-return new A.to(new A.Tg(r,"https://api.sunlay.online/api/"))},
+return new A.to(new A.Tg(r,"https://api.sunlay.online"))},
 $S:341}
 A.a1i.prototype={
 $0(){var s=this.a.$1$0(t.lJ),r=s.VP()
 s.VQ()
-return new A.tu(new A.Tg(r,"https://api.sunlay.online/api/"))},
+return new A.tu(new A.Tg(r,"https://api.sunlay.online"))},
 $S:342}
 A.a9P.prototype={
 $3(a,b,c){var s=null
