@@ -47809,7 +47809,11 @@ qE(a,b){var s=this.d.a.r3(0,"token",""),r=a.b
 r===$&&A.b()
 r.n(0,"Accept-Language","vi")
 a.b.n(0,"Authorization","Bearer "+s)
-a.b.n(0,"X-Authorization","2vrYdpSnJRXFCBKIOmzPwhklWPQIQtbdZodjt6816GomHmk3GSgTBFirnQHT58l6")
+a.b.n(0,"Connection","Keep-Alive")
+a.b.n(0,"Access-Control-Allow-Origin","*")
+a.b.n(0,"Access-Control-Allow-Methods","GET,PUT,PATCH,POST,DELETE")
+a.b.n(0,"Access-Control-Allow-Headers","Origin, X-Requested-With, Content-Type, Accept")
+a.w=!0
 A.bH("-------  Params: "+A.h(a.ch))
 this.a_L(a,b)},
 kp(a,b,c){return this.anp(0,b,c)},
