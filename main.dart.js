@@ -47366,7 +47366,10 @@ $2(a4,a5){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=null,a0="X\xe1c nh\u1eadn",a
 a3=a3==null?a:a3.b
 A.bH("_hiveService.getAuthState = "+a2+" "+A.h(a3))
 a2=a1.as
-if((a2==null?a:a2.b)==="")a1=A.eF(A.zz("assets/gif/loading.gif",a,a,50*Math.min(A.d(),A.e())),a,a)
+a3=a2==null
+if((a3?a:a2.b)!=="")a2=(a3?a:a2.b)==null
+else a2=!0
+if(a2)a1=A.eF(A.zz("assets/gif/loading.gif",a,a,50*Math.min(A.d(),A.e())),a,a)
 else{a2=18*Math.min(A.d(),A.e())
 a3=18*Math.min(A.d(),A.e())
 s=a1.w
@@ -47977,7 +47980,7 @@ case 6:n=d
 l=n.c
 k=n.a
 k=k==null?null:k.a
-A.bH("===== "+A.h(l)+A.h(k)+" "+A.h(n.a))
+A.bH("===== "+A.h(l)+" "+A.h(k))
 if(n.c===200){l=$.ic().mJ(0,t.iS)
 k=n.a
 k=k==null?null:k.a
